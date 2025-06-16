@@ -1,5 +1,5 @@
 html {
-  background-color: gray;'
+  background-color: gray;
   /*background: linear-gradient(
     to right,
     #0f0069 0%,
@@ -27,7 +27,6 @@ header {
   background-color: #0f0069;
   color: white;
   margin: 0px;
-  height: 135px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -59,10 +58,12 @@ body {
 }
 
 #MainPageHeader {
-  font-size: 60px;
+  font-size: 80px;
   padding: 15px;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
 }
 
 #OtherPageHeader {
@@ -75,7 +76,6 @@ body {
 .NextPageLink a {
   background-color: #14037c;
   color: white;
-  padding: 20px;
   font-size: 20px;
   text-decoration: none;
 }
@@ -89,24 +89,24 @@ table td, table {
 }
   
 .navbar {
-  font-size: 25px;
+  font-size: 31px;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  padding: 2px;
+  padding-bottom: 8px;
 }
 
 .navbar a{
   text-decoration: none;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 10px;
 }
 
-.hoverlinks {
-   padding-top: 20px;
-}
 
 .hoverlinks:hover {
   background-color: white;
   color: #0f0069;
- 
+  border-radius: 10px;
+  padding: 2px;
 }
 
 .logo {
@@ -118,9 +118,6 @@ table td, table {
   border: 1px solid black;
 }
 
-.pagelinks {
-  padding-top: 52px;
-}
 
 .cities_logo {
   height: 252px;
@@ -156,12 +153,12 @@ table td, table {
 }
 
 
-
+/*
 .MainPageContent {
   border-left: 15px solid #0f0069;
   border-right: 15px solid #0f0069;
 }
-
+*/
 .execHeadedr {
   padding-bottom: 0px;
 }
@@ -169,4 +166,11 @@ table td, table {
 #execSubHeader {
   position: relative;
   bottom: 40px;
+}
+
+.bigheaderlogo {
+  font-size: 100px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  padding-top: 10px;
 }
